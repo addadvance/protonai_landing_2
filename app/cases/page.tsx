@@ -1,8 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { TrendingUp, Users, Target, ArrowRight } from 'lucide-react';
-import Link from 'next/link';
+import { TrendingUp, Users, Target } from 'lucide-react';
 import { useLocale } from '@/hooks/use-locale';
 import { getTranslations } from '@/lib/i18n';
 
@@ -115,14 +114,10 @@ export default function CasesPage() {
                     })}
                   </div>
 
-                  {/* View Case Link */}
-                  <Link
-                    href={`/cases/${caseStudy.slug}`}
-                    className="inline-flex items-center space-x-2 text-cyan-400 hover:text-cyan-300 font-medium transition-colors group/link"
-                  >
-                    <span>{t?.cases?.viewCase}</span>
-                    <ArrowRight size={16} className="transition-transform group-hover/link:translate-x-1" />
-                  </Link>
+                  {/* View Case - Coming Soon */}
+                  <div className="inline-flex items-center space-x-2 text-gray-500 font-medium">
+                    <span>{t?.cases?.viewCase} (\u0421\u043a\u043e\u0440\u043e)</span>
+                  </div>
                 </div>
               </motion.article>
             ))}

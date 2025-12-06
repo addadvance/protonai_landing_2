@@ -18,7 +18,6 @@ export default function HomePage() {
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         {/* Background gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-gray-950 to-purple-500/10" />
-        <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-20" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <motion.div

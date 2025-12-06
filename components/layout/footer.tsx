@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { useLocale } from '@/hooks/use-locale';
 import { getTranslations } from '@/lib/i18n';
 
@@ -22,16 +21,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo & Description */}
           <div className="space-y-4">
-            <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-              <div className="relative w-10 h-10">
-                <Image
-                  src="/logo.png"
-                  alt="ProtonAI Logo"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <span className="text-xl font-bold text-white">ProtonAI</span>
+            <Link href="/" className="hover:opacity-80 transition-opacity">
+              <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                ProtonAI
+              </span>
             </Link>
             <p className="text-sm text-gray-400 max-w-sm">
               {t?.footer?.description}

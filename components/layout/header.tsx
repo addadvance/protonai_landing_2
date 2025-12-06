@@ -31,7 +31,7 @@ export function Header() {
             <div className="relative w-10 h-10">
               <Image
                 src="/logo.png"
-                alt="ProtonAI Logo"
+                alt="ProtonAI - Home"
                 fill
                 className="object-contain"
                 priority

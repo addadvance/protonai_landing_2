@@ -38,7 +38,19 @@ export default function ContactPage() {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-8"
             >
-              <ContactForm translations={t?.contact?.form ?? {}} locale={locale} />
+              <ContactForm 
+                translations={t?.contact?.form ?? {
+                  name: 'Name',
+                  email: 'Email',
+                  company: 'Company',
+                  message: 'Message',
+                  submit: 'Submit',
+                  sending: 'Sending...',
+                  success: 'Success!',
+                  error: 'Error occurred'
+                }} 
+                locale={locale} 
+              />
             </motion.div>
 
             {/* Contact Info */}

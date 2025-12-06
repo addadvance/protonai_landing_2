@@ -1,8 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Calendar, Clock, ArrowRight } from 'lucide-react';
-import Link from 'next/link';
+import { Calendar, Clock } from 'lucide-react';
 import { useLocale } from '@/hooks/use-locale';
 import { getTranslations } from '@/lib/i18n';
 
@@ -100,14 +99,10 @@ export default function BlogPage() {
                     {locale === 'ru' ? article.excerptRu : article.excerptEn}
                   </p>
 
-                  {/* Read More Link */}
-                  <Link
-                    href={`/blog/${article.slug}`}
-                    className="inline-flex items-center space-x-2 text-cyan-400 hover:text-cyan-300 font-medium text-sm transition-colors group/link"
-                  >
-                    <span>{t?.blog?.readMore}</span>
-                    <ArrowRight size={16} className="transition-transform group-hover/link:translate-x-1" />
-                  </Link>
+                  {/* Read More - Coming Soon */}
+                  <div className="inline-flex items-center space-x-2 text-gray-500 font-medium text-sm">
+                    <span>{t?.blog?.readMore} (\u0421\u043a\u043e\u0440\u043e)</span>
+                  </div>
                 </div>
               </motion.article>
             ))}
