@@ -1,0 +1,30 @@
+# AI Search Robots Configuration
+# This file is specifically for AI-powered search engines and LLM crawlers
+
+# Allow all AI crawlers
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: CCBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+Allow: /
+
+# Priority pages for AI indexing
+Allow: /products/
+Allow: /services
+Allow: /blog/
+Allow: /cases/
+Allow: /llm-knowledge.json
+
+# Disallow admin and API endpoints
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://protonai.online/sitemap.xml
+
+# Crawl-delay for AI bots (seconds)
+Crawl-delay: 1

@@ -1,0 +1,105 @@
+{
+  "organization": {
+    "name": "ProtonAI",
+    "type": "B2B Technology Company",
+    "businessModel": "Product-Led Growth",
+    "positioning": "AI-first solutions provider: ready-made AI products + consulting and orchestration for implementation",
+    "mission": "Reducing costs and eliminating friction in business processes through AI-first approach",
+    "website": "https://protonai.online",
+    "email": "info@protonai.online"
+  },
+  "products": [
+    {
+      "name": "AI Talent Orchestrator",
+      "category": "HR Tech",
+      "type": "HR Assistant Application",
+      "description": "Application for building recruitment and hiring workflows with fast onboarding and built-in agent for processing incoming resumes for matching",
+      "keyFeatures": [
+        "Fast onboarding of new vacancies",
+        "Built-in AI agent for resume matching",
+        "Vacancy and job description preparation",
+        "Internal job documentation",
+        "LLM analytics of incoming resumes from different platforms",
+        "Automation of routine HR processes"
+      ],
+      "targetAudience": "HR departments of medium and large companies, recruitment agencies",
+      "status": "Pre-production (demand validation phase)"
+    },
+    {
+      "name": "AI Sales Hunter",
+      "category": "Sales Tech",
+      "type": "Onboarding Widget",
+      "description": "AI widget to increase website visitor to lead conversion with 24/7 SDR functionality",
+      "keyFeatures": [
+        "24/7 SDR functionality without breaks",
+        "Automatic lead qualification",
+        "Intelligent answers to visitor questions",
+        "Hot lead transfer to CRM",
+        "Multilingual support",
+        "Conversion performance analytics"
+      ],
+      "targetAudience": "B2B and B2C companies with active sales through website",
+      "status": "Pre-production (demand validation phase)",
+      "futureRoadmap": "Evolution into full sales agent"
+    },
+    {
+      "name": "AI Visibility Scanner",
+      "category": "SEO & AI Search Optimization",
+      "type": "Lead Magnet Product",
+      "description": "Website optimization service for AI search engines (ChatGPT, Claude, Perplexity, etc.) with freemium model",
+      "pricingModel": {
+        "free": "Assessment of 1-2 site pages for visibility, online report",
+        "paid": "PDF report, schema.org markup generation, subscription to regular audit and file updates"
+      },
+      "keyFeatures": [
+        "Free assessment of 1-2 site pages",
+        "Online AI search visibility report",
+        "Schema.org markup generation",
+        "PDF reports with detailed analysis",
+        "Regular audit and file updates",
+        "Optimization for ChatGPT, Claude, Perplexity"
+      ],
+      "targetAudience": "E-commerce companies, B2C services, digital agencies",
+      "status": "Pre-production (demand validation phase)",
+      "note": "Generated files become the basis for customer sales agents"
+    }
+  ],
+  "services": [
+    {
+      "name": "Consulting",
+      "description": "Identifying AI application points in business and developing implementation strategy with maximum ROI"
+    },
+    {
+      "name": "Solution Orchestration",
+      "description": "Eliminating chaos from disparate AI tools across departments. Building unified ecosystem where every department works in synergy"
+    },
+    {
+      "name": "AI-first Process Construction",
+      "description": "Designing and implementing business processes with AI at the core, not as an add-on. Integrating our products into client processes"
+    }
+  ],
+  "valueProposition": {
+    "primaryBenefit": "Cost reduction and friction elimination in business processes",
+    "approach": "AI-first methodology",
+    "deliverables": [
+      "Ready-made AI products of proprietary development",
+      "Consulting services",
+      "Orchestration for implementation"
+    ]
+  },
+  "differentiators": [
+    "Product-Led Growth model",
+    "Focus on process optimization, not just technology",
+    "End-to-end solutions: from consulting to product implementation",
+    "AI-native approach from ground up"
+  ],
+  "industryFocus": [
+    "HR & Recruitment",
+    "Sales & Marketing",
+    "E-commerce",
+    "B2B Services",
+    "B2C Services"
+  ],
+  "languages": ["Russian", "English"],
+  "lastUpdated": "2025-12-06"
+}
